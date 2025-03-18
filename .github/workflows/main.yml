@@ -38,7 +38,7 @@ jobs:
           echo "./testdata/bin" >> $GITHUB_PATH
           ./testdata/bin/vale -v
         env:
-          VALE_VERSION: 3.9.1
+          VALE_VERSION: 3.10.0
 
       - name: Features
         run: |
