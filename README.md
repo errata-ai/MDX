@@ -1,11 +1,7 @@
 # MDX
 
-A Vale configuration for sites using [MDX][1]:
-
-- [x] Adds support for using MDX comment syntax (`{/* ... */}`).
-- [x] Ignores `import`s and `export`s.
-- [x] Ignores `<Component ... />` and `<Component> ... </Component>`.
-- [x] Ignores `{ ... }`.
+A Vale configuration for sites using [MDX][1]. You'll want to following the
+[MDX installation][2] instructions before using this package.
 
 ## Getting Started
 
@@ -32,3 +28,4 @@ $ make test
 ```
 
 [1]: https://mdxjs.com
+[2]: https://vale.sh/docs/formats/mdx
